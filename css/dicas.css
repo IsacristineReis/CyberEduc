@@ -1,0 +1,162 @@
+:root {
+  --banner: #4b0082;
+  --main-color: #6211f5;
+  --alternative-color: #f5e810;
+  --bg-color: #fff;
+  --green: #32cd32;
+  --black: #011522;
+  /*contraste*/
+  --light-purple: #9b59b6;
+  /*contraste*/
+  --sidebar: #220054;
+  /*contraste*/
+  --pink: #ffc0cb;
+  --prime: #a9a9a9;
+}
+
+/* Conteudo da página de recomendação*/
+
+.frame-text {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.frame-text p{
+  float: left;
+  width: 60%;
+  font-size: 1.699rem;
+  color: var(--black);
+}
+
+.frame-text p strong{
+  background: var(--main-color);
+  color: var(--bg-color);
+}
+
+.frame-text img{
+  float: right;
+  width: 40%;
+  height: 40%;
+  
+}
+
+/* +++++++++ */
+
+/* TEXTO */
+
+.article-details-content h3{
+  font-size: 1.6625em;
+  line-height: 1.4;
+  margin: 1.6em 0 0.64em;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #fecd3c;
+}
+
+.text-seta{
+  position: relative;
+  padding-left: 40px;
+  height: auto;
+}
+
+.text-seta::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 27%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-image: url('../img/figuras/seta.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* ===== */
+
+/* Download */
+
+.dica p {
+  margin-bottom: 15px;
+}
+
+.container {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container i {
+  font-size: 1.5rem;
+  color: var(--alternative-color);
+}
+
+.container img {
+  width: 50px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 12px 10px;
+  font-size: 16px;
+  color: var(--bg-color);
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  font-size: 1.22rem;
+}
+
+.download-btn:hover {
+  text-decoration: underline;
+  color: var();
+}
+
+.download-btn:active {
+  transform: translateY(5px);
+  transition: 200ms;
+}
+
+.hr {
+  margin: 1px auto;
+  width: 90%;
+  border-radius: 10px;
+  border: 1px solid var(--light-purple);
+}
+
+/* ======== */
+
+@media (max-width: 768px) {
+  .frame-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .frame-text p {
+    width: 100%;
+    font-size: 1.699rem;
+    color: var(--black);
+    text-align: center;
+  }
+  
+  .frame-text img {
+    width: 85%;
+    height: auto;
+  }
+  
+}
