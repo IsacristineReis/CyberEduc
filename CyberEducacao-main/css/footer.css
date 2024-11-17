@@ -1,0 +1,48 @@
+/* Footer = Rodapé */
+
+:root {
+  --banner: #4b0082;
+  --main-color: #6211f5;
+  --alternative-color: #f5e810;
+  --bg-color: #fff;
+  --green: #32cd32; /*contraste*/
+  --light-purple: #9b59b6; /*contraste*/
+  --sidebar: #220054; /*contraste*/
+  --pink: #ffc0cb;
+  --prime: #a9a9a9;
+}
+
+footer {
+  color: var(--bg-color);
+  background: var(--sidebar);
+  color: var(--bg-color);
+  background: var(--sidebar);
+	padding: 10px;
+	text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  color: var(--alternative-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+@media (max-width: 1590px) {
+  footer {
+    padding: 10px;
+    /* position: absolute; */
+    /* bottom: 0; */
+    left: 0;
+  }
+}
