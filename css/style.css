@@ -441,6 +441,9 @@ li {
     padding: 20px;
     height: auto;
   }
+  .cookieDescription{
+    width: 80%;
+  }
 }
 
 @media (max-width: 597px) {
