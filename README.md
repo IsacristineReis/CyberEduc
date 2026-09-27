@@ -1,8 +1,5 @@
-# CyberEducação
+# Plataforma CyberEducação
 
-<img 
-src="assets/READMEfotoprojeto" 
-alt="ilustração de um computador"
-/>
+<img src="./assest/READMEfotoprojeto.png">
 
-> Plataforma sobre educação cibernética
+>Plataforma sobre educação cibernética
